@@ -43,41 +43,6 @@ class Circle(val radius: Double) : Shape() {
     }
 }
 
-/*
-//Polymorphism
-
-fun calculateAreas(shapes: Array<Shape>) {
-    for (shape in shapes) {
-        println(shape.area())
-    }
-}
-
-fun printArea(shape: Shape){
-    println(shape.area())
-}
-open class Shape() {
-    open fun area(): Double {
-        return 0.0
-    }
-}
-
-class Circle(val radius: Double) : Shape() {
-    override fun area(): Double {
-        return Math.PI * radius * radius
-    }
-}
-
-class Square(val side: Double) : Shape() {
-    override fun area(): Double {
-        return side * side
-    }
-}
-
-class Triangle(val height: Double, val base: Double) : Shape() {
-    override fun area(): Double {
-        return 0.5 * height * base
-    }
-}*/
 
 /*
 //Overrider
