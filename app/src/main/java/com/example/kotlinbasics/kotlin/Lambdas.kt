@@ -64,8 +64,9 @@ fun calculator(a: Double, b: Double, gn: (Double, Double) -> Double) {
     println(result)
 }
 
-//For make function higher order functions we need to pass other
-// functions at entry time or return function or do both
+//In Kotlin, a function which can accept a function as a parameter or can
+// return a function is called a Higher-Order function.
+
 //Function which are passing must have same return type and parameter also have same data type
 
 

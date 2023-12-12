@@ -55,6 +55,4 @@ class Pizza private constructor(val type: String, val toppings: String) {
     override fun toString(): String {
         return "Pizza(type='$type', toppings='$toppings')"
     }
-
-
 }
